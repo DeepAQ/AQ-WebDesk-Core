@@ -1,0 +1,60 @@
+@charset "gb2312";
+/* CSS Document */
+body {
+	background:#0099CC; margin:0 0 0 0; font:12px Tahoma;
+}
+img { border:none; }
+a { text-decoration:none; }
+#starting {
+	background:#0099CC; z-index:8888; text-align:center;
+	width:500px; height:500px; position:absolute;
+	top:20%; left:30%; color:#FFF;
+}
+#taskbar_bg {
+	bottom:0; width:100%; height:26px; z-index:7400;
+	background:#FFF; opacity:.6; position:absolute;
+}
+#taskbar {
+	bottom:0; width:100%; height:26px; position:absolute; z-index:7410;
+}
+#taskbar div { height:26px; line-height:26px; }
+#tasks { float:left; padding-left:50px; }
+#tasks img{
+	width:16px; height:16px; padding-left:3px; padding-top:5px; cursor:pointer;
+}
+#notice { float:right; }
+#notice div {
+	float:right; cursor:pointer; padding-right:3px;
+}
+#notice div img{ padding-top:5px; width:16px; height:16px; }
+#time { font-weight:bold; }
+#start{
+	position:absolute; left:5px; bottom:5px;
+	width:42px; height:42px; z-index:7420; cursor:pointer;
+}
+#menu {
+	position:absolute; z-index:7419; bottom:26px; left:0px; display:none;
+	width:300px; height:400px; background:#FFF; border:#999 solid 1px;
+}
+#body_bg {
+	width:100%; z-index:7418;
+}
+#pnet {
+	width:120px; height:50px; position:absolute; right:45px; display:none;
+	bottom:26px; background:#FFF; border:#000 solid 1px;
+	padding:10px; opacity:.8; line-height:20px;
+}
+.wmenu { cursor:pointer; position:absolute; right:2em; top:5px; }
+.wmenu img { width:12px; height:15px; padding-left:5px; }
+#ver {
+	position:absolute; bottom:30px; right:5px;
+	font-weight:bold; color:#333; text-align:right;
+}
+#accordion div { cursor:pointer; }
+#accordion div div{
+	width:60px; height:50px; padding-right:5px; text-align:center; float:left;
+}
+#accordion div div img{
+	width:32px; height:32px;
+}
+.maxw { width:100%; }

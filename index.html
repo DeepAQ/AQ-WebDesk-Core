@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta http-equiv="X-UA-Compatible" content="IE=8" />
+<title>AQOS - 新一代云计算WebOS</title>
+<script type="text/javascript" src="os/jquery-1.5.2.min.js"></script>
+<link href="os/jquery-ui-1.8.11.custom.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="os/jquery-ui-1.8.11.custom.min.js"></script>
+<link href="os/aqos.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="body_bg"></div>
+<div id="starting">
+	<img src="os/cloud.png" style="padding-top:80px;" />
+    <br /><span style="font-size:50px; font-weight:bold;">AQOS2</span><h1>Starting...</h1>
+</div>
+<div id="taskbar_bg"></div>
+<div id="taskbar">
+    <div id="tasks"></div>
+    <div id="notice">
+    	<div id="desk"><img src="os/desk.gif" /></div>
+		<div id="time"></div>
+    	<!--<div id="net"><img src="os/network_h.gif" /></div>-->
+        <div id="ime"><img src="os/pinyin.png" /></div>
+    </div>
+</div>
+<div id="start"><img src="os/cloud.png" style="width:40px; height:40px;" /></div>
+<div id="menu">
+<div id="accordion">
+    <h3><a href="#">测试应用</a></h3>
+    <div>
+    	<div at="'app/1g1g/i.html','1g1g.ico',370,490,'亦歌',true,1"><img src="app/icon/1g1g.ico" /><br />亦歌</div>
+    </div>
+    <h3><a href="#">系统工具</a></h3>
+    <div>
+		
+    </div>
+</div>
+</div>
+<div id="ver">AQOS v2.0.1.0(Paper Cup)<br />内部版本 beta1.0912<br />此AQOS会话运行于</div>
+<!--<div id="pnet">
+	<div class="ui-icon ui-icon-close" style="float:right; cursor:pointer;" id="pn_c">&nbsp;</div>
+	Internet：<span id="ns" style="color:#999; font-weight:bold;">未联通</span>
+    <div id="pn_btn">网速测试</div>
+</div>-->
+<script type="text/javascript" src="os/aqos.js"></script>
+<!--[if IE]>
+<script type="text/javascript">
+$("#taskbar_bg").css("filter","progid:DXImageTransform.Microsoft.Alpha(opacity=60)");
+</script>
+<![endif]-->
+</body>
+</html>
