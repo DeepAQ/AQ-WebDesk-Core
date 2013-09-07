@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background:url(images/wallpaper/0.jpg) repeat;
+	/*background:#6BADF6;*/
+	margin:0;
+}
+[about]{
+	position:fixed; z-index:-1; bottom:40px; right:5px;
+	font:15px 'Microsoft Yahei','Tahoma'; color:#FFF; text-align:right;
+}
+[taskbar]{
+	width:100%; height:40px; position:fixed; padding-left:15px;
+	background:#4E87C3; bottom:0; opacity:.9; z-index:2000;
+}
+[showdesk]{
+	position:fixed; right:0px; width:15px; height:100%;
+}
+[datetime]{
+	position:fixed; right:15px; height:100%; color:#FFF; margin:4px;
+	font:13px 'Segoe UI','Microsoft Yahei','Tahoma'; text-align:center; line-height:16px;
+}
+[task]{
+	background:rgba(255,255,255,0.2);
+	width:55px; float:left; margin-right:3px;
+}
+[task] img{
+	width:32px; height:32px; padding:4px 11px;
+}
+[active]{
+	background:rgba(255,255,255,0.4);
+}
+[aqwin]{
+	overflow:hidden;
+}
+[aqwin] iframe{
+	width:100%; height:100%;
+}
+[btnmax]{
+	background:url(images/ui-icons_d8e7f3_256x240.png) -50px -240px;
+	position:absolute; top:0; right:52px; width:27px; height:20px; z-index:1001;
+}
+[btnmin]{
+	background:url(images/ui-icons_d8e7f3_256x240.png) -80px -240px;
+	position:absolute; top:0; right:79px; width:27px; height:20px; z-index:1001;
+}
+.ui-dialog-titlebar img{
+	width:16px; height:16px; position:absolute; top:8px; left:8px;
+}
+[notifications]{
+	position:fixed; top:20px; right:0; width:380px; z-index:9999;
+}
+[notice]{
+	margin-bottom:10px; height:90px; width:380px; background:#008A00;
+	color:#FFF; font:15px 'Microsoft Yahei','Tahoma'; margin-left:380px;
+}
+[notice] img{
+	margin:20px; width:48px; height:48px; float:left;
+}
+[notice] div{
+	float:left; margin-top:15px;
+}
